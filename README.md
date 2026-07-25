@@ -37,9 +37,3 @@ DAA/
 │── binary_search.py
 │── linear_search.py
 │── README.md
-```
-
-## Author
-**Venna Kasi Janardhan Reddy**  
-B.Tech CSE (AI & ML)  
-Marwadi University
