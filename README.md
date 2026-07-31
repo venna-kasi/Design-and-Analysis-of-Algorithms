@@ -1,4 +1,3 @@
-
 # Design and Analysis of Algorithms (DAA)
 
 This repository contains Python implementations of common algorithms for the Design and Analysis of Algorithms (DAA) laboratory.
@@ -12,6 +11,9 @@ This repository contains Python implementations of common algorithms for the Des
 - Merge Sort
 - Quick Sort
 
+### Searching Algorithms
+- Linear Search
+- Binary Search
 
 ## Features
 - Python implementation
@@ -31,4 +33,12 @@ DAA/
 │── insertion_sort.py
 │── merge_sort.py
 │── quick_sort.py
+│── binary_search.py
+│── linear_search.py
 │── README.md
+```
+
+## Author
+**Venna Kasi Janardhan Reddy**  
+B.Tech CSE (AI & ML)  
+Marwadi University
