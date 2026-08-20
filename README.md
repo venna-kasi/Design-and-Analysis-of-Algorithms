@@ -2,11 +2,11 @@
 
 This repository contains Python implementations of algorithms covered in the **Design and Analysis of Algorithms (DAA)** laboratory.
 
-The programs focus on fundamental **sorting, searching, and algorithm analysis** concepts, including time and space complexity.
+The programs focus on fundamental **sorting, searching, recursion, dynamic programming, and algorithm analysis** concepts, including time and space complexity.
 
 ## 📚 Programs
 
-###  Sorting Algorithms
+### Sorting Algorithms
 
 * Bubble Sort
 * Selection Sort
@@ -15,12 +15,16 @@ The programs focus on fundamental **sorting, searching, and algorithm analysis**
 * Quick Sort
 * Heap Sort (Max Heap)
 
-###  Searching Algorithms
+### Searching Algorithms
 
 * Linear Search
 * Binary Search
 
-###  Other Algorithms
+### Dynamic Programming
+
+* 0/1 Knapsack using Dynamic Programming
+
+### Other Algorithms
 
 * Factorial using Iterative Method
 * Factorial using Recursive Method
@@ -31,18 +35,21 @@ The programs focus on fundamental **sorting, searching, and algorithm analysis**
 
 ## 📊 Time Complexity
 
-| Algorithm             |  Best Case | Average Case | Worst Case |
-| --------------------- | ---------: | -----------: | ---------: |
-| Bubble Sort           |       O(n) |        O(n²) |      O(n²) |
-| Selection Sort        |      O(n²) |        O(n²) |      O(n²) |
-| Insertion Sort        |       O(n) |        O(n²) |      O(n²) |
-| Merge Sort            | O(n log n) |   O(n log n) | O(n log n) |
-| Quick Sort            | O(n log n) |   O(n log n) |      O(n²) |
-| Heap Sort             | O(n log n) |   O(n log n) | O(n log n) |
-| Linear Search         |       O(1) |         O(n) |       O(n) |
-| Binary Search         |       O(1) |     O(log n) |   O(log n) |
-| Factorial – Iterative |       O(n) |         O(n) |       O(n) |
-| Factorial – Recursive |       O(n) |         O(n) |       O(n) |
+| **Algorithm**         | **Best Case** | **Average Case** | **Worst Case** |
+| --------------------- | ------------: | ---------------: | -------------: |
+| Bubble Sort           |          O(n) |            O(n²) |          O(n²) |
+| Selection Sort        |         O(n²) |            O(n²) |          O(n²) |
+| Insertion Sort        |          O(n) |            O(n²) |          O(n²) |
+| Merge Sort            |    O(n log n) |       O(n log n) |     O(n log n) |
+| Quick Sort            |    O(n log n) |       O(n log n) |          O(n²) |
+| Heap Sort             |    O(n log n) |       O(n log n) |     O(n log n) |
+| Linear Search         |          O(1) |             O(n) |           O(n) |
+| Binary Search         |          O(1) |         O(log n) |       O(log n) |
+| 0/1 Knapsack (DP)     |         O(nW) |            O(nW) |          O(nW) |
+| Factorial – Iterative |          O(n) |             O(n) |           O(n) |
+| Factorial – Recursive |          O(n) |             O(n) |           O(n) |
+
+**0/1 Knapsack Space Complexity:** O(nW)
 
 ## Requirements
 
@@ -54,7 +61,7 @@ The programs focus on fundamental **sorting, searching, and algorithm analysis**
 
 ### Using Google Colab
 
-1. Open [Google Colab](https://colab.research.google.com/).
+1. Open Google Colab.
 2. Upload the required `.ipynb` file.
 3. Run the cells sequentially.
 4. Enter the input when prompted.
@@ -86,6 +93,9 @@ DAA/
 │   ├── linear_search.py
 │   └── binary_search.py
 │
+├── Dynamic_Programming/
+│   └── knapsack.py
+│
 ├── Recursion/
 │   ├── factorial_iterative.py
 │   └── factorial_recursive.py
@@ -99,6 +109,7 @@ DAA/
 * Implement algorithms using Python.
 * Analyze time and space complexity.
 * Compare different algorithmic approaches.
+* Understand Dynamic Programming concepts.
 * Practice algorithm implementation for DAA laboratory work.
 
 ## Topics Covered
@@ -106,9 +117,10 @@ DAA/
 * Sorting
 * Searching
 * Recursion
+* Dynamic Programming
+* 0/1 Knapsack
 * Divide and Conquer
 * Heap and Heap Sort
 * Time Complexity
 * Space Complexity
 * Best, Average, and Worst Case Analysis
-
