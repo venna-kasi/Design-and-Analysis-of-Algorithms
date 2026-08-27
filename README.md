@@ -1,10 +1,10 @@
-Design and Analysis of Algorithms (DAA)
+## Design and Analysis of Algorithms (DAA)
 
 This repository contains Python implementations of algorithms covered in the Design and Analysis of Algorithms (DAA) laboratory.
 
 The programs focus on fundamental sorting, searching, recursion, dynamic programming, and algorithm analysis concepts, including time and space complexity.
 
-📚 Programs
+## 📚 Programs
 Sorting Algorithms
 Bubble Sort
 Selection Sort
@@ -24,7 +24,7 @@ Factorial using Iterative Method
 Factorial using Recursive Method
 💻 Programming Language
 Python 3
-📊 Time Complexity
+##📊 Time Complexity
 Algorithm	Best Case	Average Case	Worst Case
 Bubble Sort	O(n)	O(n²)	O(n²)
 Selection Sort	O(n²)	O(n²)	O(n²)
