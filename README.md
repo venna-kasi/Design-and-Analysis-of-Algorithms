@@ -1,8 +1,8 @@
 # Design and Analysis of Algorithms (DAA)
 
-This repository contains Python implementations of algorithms covered in the **Design and Analysis of Algorithms (DAA)** laboratory.
+This repository contains Python implementations of algorithms covered in the **Design and Analysis of Algorithms (DAA) laboratory**.
 
-The programs focus on fundamental **sorting, searching, recursion, dynamic programming, and algorithm analysis** concepts, including time and space complexity.
+The programs focus on fundamental **sorting, searching, graph traversal, recursion, dynamic programming, and algorithm analysis** concepts, including time and space complexity.
 
 ## 📚 Programs
 
@@ -19,6 +19,11 @@ The programs focus on fundamental **sorting, searching, recursion, dynamic progr
 
 * Linear Search
 * Binary Search
+
+### Graph Algorithms
+
+* Breadth First Search (BFS)
+* Depth First Search (DFS)
 
 ### Dynamic Programming
 
@@ -47,25 +52,38 @@ The programs focus on fundamental **sorting, searching, recursion, dynamic progr
 | Heap Sort | O(n log n) | O(n log n) | O(n log n) |
 | Linear Search | O(1) | O(n) | O(n) |
 | Binary Search | O(1) | O(log n) | O(log n) |
+| BFS | O(V + E) | O(V + E) | O(V + E) |
+| DFS | O(V + E) | O(V + E) | O(V + E) |
 | 0/1 Knapsack (DP) | O(nW) | O(nW) | O(nW) |
 | Matrix Chain Multiplication (DP) | O(n³) | O(n³) | O(n³) |
 | Making Change (DP) | O(nA) | O(nA) | O(nA) |
 | Factorial – Iterative | O(n) | O(n) | O(n) |
 | Factorial – Recursive | O(n) | O(n) | O(n) |
 
+## 📊 Graph Algorithm Complexity
+
+| Algorithm | Time Complexity | Space Complexity |
+|---|---:|---:|
+| BFS | O(V + E) | O(V) |
+| DFS | O(V + E) | O(V) |
+
+### Where
+
+* `V` = number of vertices
+* `E` = number of edges
+* `n` = number of items, matrices, or coins
+* `W` = knapsack capacity
+* `A` = target amount
+
 ## Space Complexity
 
+* BFS: O(V)
+* DFS: O(V)
 * 0/1 Knapsack: O(nW)
 * Matrix Chain Multiplication: O(n²)
 * Making Change: O(A)
 * Factorial – Iterative: O(1)
 * Factorial – Recursive: O(n)
-
-### Where
-
-* `n` = number of items, matrices, or coins
-* `W` = knapsack capacity
-* `A` = target amount
 
 ## Requirements
 
