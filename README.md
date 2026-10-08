@@ -2,7 +2,7 @@
 
 This repository contains Python implementations of algorithms covered in the **Design and Analysis of Algorithms (DAA) laboratory**.
 
-The programs focus on fundamental **sorting, searching, graph traversal, recursion, dynamic programming, and algorithm analysis** concepts, including time and space complexity.
+The programs focus on fundamental **sorting, searching, graph traversal, greedy algorithms, recursion, dynamic programming, and algorithm analysis** concepts, including time and space complexity.
 
 ## 📚 Programs
 
@@ -24,6 +24,7 @@ The programs focus on fundamental **sorting, searching, graph traversal, recursi
 
 * Breadth First Search (BFS)
 * Depth First Search (DFS)
+* Prim's Algorithm
 
 ### Dynamic Programming
 
@@ -42,30 +43,32 @@ The programs focus on fundamental **sorting, searching, graph traversal, recursi
 
 ## 📊 Time Complexity
 
-| Algorithm | Best Case | Average Case | Worst Case |
-|---|---:|---:|---:|
-| Bubble Sort | O(n) | O(n²) | O(n²) |
-| Selection Sort | O(n²) | O(n²) | O(n²) |
-| Insertion Sort | O(n) | O(n²) | O(n²) |
-| Merge Sort | O(n log n) | O(n log n) | O(n log n) |
-| Quick Sort | O(n log n) | O(n log n) | O(n²) |
-| Heap Sort | O(n log n) | O(n log n) | O(n log n) |
-| Linear Search | O(1) | O(n) | O(n) |
-| Binary Search | O(1) | O(log n) | O(log n) |
-| BFS | O(V + E) | O(V + E) | O(V + E) |
-| DFS | O(V + E) | O(V + E) | O(V + E) |
-| 0/1 Knapsack (DP) | O(nW) | O(nW) | O(nW) |
-| Matrix Chain Multiplication (DP) | O(n³) | O(n³) | O(n³) |
-| Making Change (DP) | O(nA) | O(nA) | O(nA) |
-| Factorial – Iterative | O(n) | O(n) | O(n) |
-| Factorial – Recursive | O(n) | O(n) | O(n) |
+| Algorithm                        |  Best Case | Average Case | Worst Case |
+| -------------------------------- | ---------: | -----------: | ---------: |
+| Bubble Sort                      |       O(n) |        O(n²) |      O(n²) |
+| Selection Sort                   |      O(n²) |        O(n²) |      O(n²) |
+| Insertion Sort                   |       O(n) |        O(n²) |      O(n²) |
+| Merge Sort                       | O(n log n) |   O(n log n) | O(n log n) |
+| Quick Sort                       | O(n log n) |   O(n log n) |      O(n²) |
+| Heap Sort                        | O(n log n) |   O(n log n) | O(n log n) |
+| Linear Search                    |       O(1) |         O(n) |       O(n) |
+| Binary Search                    |       O(1) |     O(log n) |   O(log n) |
+| BFS                              |   O(V + E) |     O(V + E) |   O(V + E) |
+| DFS                              |   O(V + E) |     O(V + E) |   O(V + E) |
+| Prim's Algorithm                 |      O(V²) |        O(V²) |      O(V²) |
+| 0/1 Knapsack (DP)                |      O(nW) |        O(nW) |      O(nW) |
+| Matrix Chain Multiplication (DP) |      O(n³) |        O(n³) |      O(n³) |
+| Making Change (DP)               |      O(nA) |        O(nA) |      O(nA) |
+| Factorial – Iterative            |       O(n) |         O(n) |       O(n) |
+| Factorial – Recursive            |       O(n) |         O(n) |       O(n) |
 
 ## 📊 Graph Algorithm Complexity
 
-| Algorithm | Time Complexity | Space Complexity |
-|---|---:|---:|
-| BFS | O(V + E) | O(V) |
-| DFS | O(V + E) | O(V) |
+| Algorithm        | Time Complexity | Space Complexity |
+| ---------------- | --------------: | ---------------: |
+| BFS              |        O(V + E) |             O(V) |
+| DFS              |        O(V + E) |             O(V) |
+| Prim's Algorithm |           O(V²) |            O(V²) |
 
 ### Where
 
@@ -79,6 +82,7 @@ The programs focus on fundamental **sorting, searching, graph traversal, recursi
 
 * BFS: O(V)
 * DFS: O(V)
+* Prim's Algorithm: O(V²)
 * 0/1 Knapsack: O(nW)
 * Matrix Chain Multiplication: O(n²)
 * Making Change: O(A)
@@ -108,3 +112,4 @@ Clone the repository and run the required Python program:
 git clone <your-repository-url>
 cd <repository-name>
 python filename.py
+```
